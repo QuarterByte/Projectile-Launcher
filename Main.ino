@@ -20,4 +20,4 @@ void loop() {
 }
 2575 steps = 90 degrees
 1 degree = 28.6 step
-connect ground to arduino only, no 5V+
+// connect ground to arduino only, no 5V+
