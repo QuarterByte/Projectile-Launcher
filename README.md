@@ -1,1 +1,3 @@
 The projectile launcher mechanism was made for a Physics project. The launcher itself was fully 3D printed, with all parts made from scratch. The angle of launch is controlled by a stepper motor and an Arduino Uno, controlling the degree with up to half a degree of precision. The launcher landed on a specified target ten times out of ten, earning a perfect grade for accuracy. The code for the stepper motor was made in C++.
+
+The files for the 3D printed launcher parts are included in this repository, all made from scratch. They were printed using a creality 3D Pro 3D printer, although any 3D printer would suffice. Any infill above 20% would work well, 50% is the infill that was used for my project.
