@@ -8,16 +8,13 @@ const int stepsPerRevolution = 2038;
 Stepper myStepper = Stepper (stepsPerRevolution, 8, 10, 9, 11);
 
 void setup() {
-  for (int i = 0; i <  286; i++) {
+  for (int i = 0; i < 1144; i++) {
 
   // Rotate CW slowly at 5 RPM
   myStepper.setSpeed(10);
-  myStepper.step(1);
+  myStepper.step(1);  
 }
 }
-
-void loop() {
-}
-2575 steps = 90 degrees
-1 degree = 28.6 step
+//2575 steps = 90 degrees
+//1 degree = 28.6 step
 // connect ground to arduino only, no 5V+
